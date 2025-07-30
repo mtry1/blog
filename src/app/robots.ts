@@ -6,6 +6,6 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://yourusername.github.io/sitemap.xml",
+    sitemap: "https://mtry1.github.io/sitemap.xml",
   };
 }

@@ -3,7 +3,7 @@ import { getSortedPostsData } from "@/lib/posts";
 export const dynamic = "force-static";
 
 export default function sitemap() {
-  const baseUrl = "https://yourusername.github.io";
+  const baseUrl = "https://mtry1.github.io";
   const posts = getSortedPostsData();
 
   const postUrls = posts.map((post) => ({

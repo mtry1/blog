@@ -41,16 +41,16 @@ export default function Comments({ slug, title }: CommentsProps) {
     script.setAttribute(
       "data-repo",
       process.env.NEXT_PUBLIC_GISCUS_REPO ||
-        "YOUR_GITHUB_USERNAME/YOUR_REPO_NAME"
+        "mtry1/blog"
     );
     script.setAttribute(
       "data-repo-id",
-      process.env.NEXT_PUBLIC_GISCUS_REPO_ID || "YOUR_REPO_ID"
+      process.env.NEXT_PUBLIC_GISCUS_REPO_ID || "1029060484"
     );
     script.setAttribute("data-category", "Announcements");
     script.setAttribute(
       "data-category-id",
-      process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID || "YOUR_CATEGORY_ID"
+      process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID || "DIC_kwDOPVY3hM4CbqQK"
     );
     script.setAttribute("data-mapping", "pathname");
     script.setAttribute("data-strict", "0");
